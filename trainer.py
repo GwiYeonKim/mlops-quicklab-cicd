@@ -4,8 +4,8 @@ import torch.optim as optim
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
 
-#input_size = 784
-input_size = 812
+input_size = 784
+#input_size = 812
 hidden_size = 128
 num_classes = 10
 num_epochs = 5
